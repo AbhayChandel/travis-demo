@@ -7,6 +7,8 @@ package com.cg.TravisDemo;
 public class App {
   public static void main(String[] args) {
 
-    System.out.println("Hello World this is Travis Demo!");
+    String message = "Hello World this is Travis Demo!";
+    Print print = new PrintToConsole();
+    print.print(message);
   }
 }
