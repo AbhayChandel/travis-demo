@@ -2,4 +2,4 @@ language: java
 dist: precise
 jdk:
   - oraclejdk7
-script: mvn ins
+script: mvn install
